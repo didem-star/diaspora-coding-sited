@@ -143,3 +143,38 @@ footer {
   padding: 30px 20px;
   font-size: 14px;
 }
+/* COURSES */
+.courses {
+  background: #f1f5f9;
+  text-align: center;
+}
+
+.section-desc {
+  max-width: 720px;
+  margin: 0 auto 50px;
+  font-size: 17px;
+  color: var(--gray);
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.course-card {
+  background: white;
+  padding: 24px 20px;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
