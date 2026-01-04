@@ -80,6 +80,13 @@ body {
   border-radius: 16px;
   background: #f8f9fb;
   box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  .benefit-card::before {
+  content: "✨";
+  font-size: 28px;
+  display: block;
+  margin-bottom: 10px;
+}
+
 }
 
 .benefit-card h3 {
