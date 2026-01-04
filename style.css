@@ -99,6 +99,13 @@ body {
   background: #fafafa;
   text-align: center;
 }
+.program {
+  transition: transform 0.3s ease;
+}
+
+.program:hover {
+  transform: translateY(-6px);
+}
 
 .programs h2 {
   font-size: 32px;
