@@ -11,11 +11,19 @@ body {
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, #0a1f44, #102c5c);
+  background:
+    linear-gradient(
+      rgba(10, 31, 68, 0.75),
+      rgba(16, 44, 92, 0.75)
+    ),
+    url("https://images.unsplash.com/photo-1603575448360-153f093fd0d4?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
   color: #fff;
-  padding: 100px 20px;
+  padding: 120px 20px;
   text-align: center;
 }
+
 
 .hero h1 {
   font-size: 42px;
