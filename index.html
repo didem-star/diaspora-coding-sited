@@ -4,124 +4,90 @@
   <meta charset="UTF-8" />
   <title>Global Coding for Kids</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <style>
-    :root {
-      --primary: #4f46e5;
-      --secondary: #22c55e;
-      --dark: #0f172a;
-      --light: #f8fafc;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    }
-
-    body {
-      background: var(--light);
-      color: var(--dark);
-      line-height: 1.6;
-    }
-
-    header {
-      background: linear-gradient(120deg, var(--primary), #6366f1);
-      color: white;
-      padding: 80px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 42px;
-      margin-bottom: 16px;
-    }
-
-    header p {
-      font-size: 18px;
-      max-width: 600px;
-      margin: 0 auto 32px;
-    }
-
-    .cta {
-      background: var(--secondary);
-      color: white;
-      padding: 14px 28px;
-      border-radius: 999px;
-      font-size: 16px;
-      text-decoration: none;
-      font-weight: 600;
-      display: inline-block;
-    }
-
-    section {
-      padding: 80px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 32px;
-    }
-
-    .card {
-      background: white;
-      padding: 32px;
-      border-radius: 16px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    }
-
-    .card h3 {
-      margin-bottom: 12px;
-      font-size: 20px;
-    }
-
-    .card p {
-      font-size: 15px;
-      color: #475569;
-    }
-
-    .highlight {
-      background: #eef2ff;
-      border-left: 6px solid var(--primary);
-      padding: 32px;
-      border-radius: 12px;
-    }
-
-    footer {
-      background: var(--dark);
-      color: #cbd5f5;
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 14px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header>
-    <h1>Çocuklar için Global Kodlama Eğitimi</h1>
-    <p>
-      Yurt dışında yaşayan Türk aileler için,
-      çocuklara özel online kodlama ve teknoloji dersleri.
-    </p>
-    <a class="cta" href="#">Ücretsiz Bilgi Al</a>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Çocuğunuzun Geleceğine Global Bir Yatırım</h1>
+      <p>
+        Yurt dışında yaşayan Türk aileler için özel olarak tasarlanmış,
+        online kodlama ve teknoloji eğitimleri.
+      </p>
+      <a href="#" class="cta">Ücretsiz Bilgi Al</a>
+    </div>
   </header>
 
-  <section>
+  <!-- TRUST -->
+  <section class="trust">
+    <p>Avrupa genelinde yüzlerce aile tarafından tercih ediliyor</p>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <h2>Nasıl Çalışır?</h2>
     <div class="grid">
       <div class="card">
-        <h3>🌍 Global Öğrenciler</h3>
-        <p>Avrupa ve dünyanın her yerinden Türk çocuklar için tasarlandı.</p>
+        <h3>🎓 Canlı Dersler</h3>
+        <p>Alanında uzman eğitmenlerle birebir veya küçük gruplar.</p>
       </div>
-
       <div class="card">
-        <h3>💻 Online & Canlı</h3>
-        <p>Gerçek eğitmenlerle, canlı ve etkileşimli dersler.</p>
+        <h3>🌍 Global Saatler</h3>
+        <p>Avrupa saatlerine uygun ders planlaması.</p>
       </div>
+      <div class="card">
+        <h3>💻 Online Platform</h3>
+        <p>Evden, güvenli ve kontrollü dijital öğrenme ortamı.</p>
+      </div>
+    </div>
+  </section>
 
-      <div clas
+  <!-- WHY -->
+  <section class="why">
+    <div class="why-inner">
+      <h2>Neden Kodlama?</h2>
+      <p>
+        Kodlama çocuklara sadece teknoloji değil;
+        analitik düşünme, problem çözme ve üretkenlik kazandırır.
+        Geleceğin mesleklerine erken hazırlık sağlar.
+      </p>
+    </div>
+  </section>
+
+  <!-- TARGET -->
+  <section class="target">
+    <h2>Kimler İçin?</h2>
+    <ul>
+      <li>🇩🇪 🇳🇱 🇫🇷 Avrupa’da yaşayan Türk aileler</li>
+      <li>👧👦 7–14 yaş arası çocuklar</li>
+      <li>🎯 Eğitimi ciddiye alan ebeveynler</li>
+    </ul>
+  </section>
+
+  <!-- PRICING TEASER -->
+  <section class="pricing">
+    <h2>Fiyatlandırma</h2>
+    <p>
+      Yurt dışı gelirine uygun, erişilebilir paketler.
+      Kur bazlı avantajlı fiyatlandırma.
+    </p>
+    <span class="note">* Detaylar için bizimle iletişime geçin</span>
+  </section>
+
+  <!-- CTA -->
+  <section class="final-cta">
+    <h2>İlk Adımı Atın</h2>
+    <p>Ücretsiz bilgi alarak size uygun programı birlikte belirleyelim.</p>
+    <a href="#" class="cta big">Bilgi Al</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Global Coding Project · Tüm hakları saklıdır
+  </footer>
+
+</body>
+</html>
